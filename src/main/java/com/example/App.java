@@ -1,5 +1,6 @@
 package com.example;
 
+import com.example.controller.Hello2Controller;
 import com.example.controller.HelloController;
 import io.bootique.BaseModule;
 import io.bootique.Bootique;
@@ -25,7 +26,7 @@ public class App extends BaseModule
 
     @Override
     public void configure(Binder binder) {
-        JerseyModule.extend(binder).addResource(HelloController.class);
+        JerseyModule.extend(binder).addResource(HelloController.class).addResource(Hello2Controller.class);
         JerseyJacksonModule.extend(binder).skipNullProperties();
     }
 }
