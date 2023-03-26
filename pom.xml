@@ -15,9 +15,9 @@
   </properties>
   <scm>
     <developerConnection>scm:git:https://github.com/lewiswon/bootique_get_started.git </developerConnection>
-    <tag>1.1.0</tag>
+    <tag>HEAD</tag>
   </scm>
-  <version>1.1.0</version>
+  <version>1.1.1-SNAPSHOT</version>
   <name>myproject</name>
   <url>http://maven.apache.org</url>
   <dependencyManagement>
